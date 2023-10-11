@@ -70,12 +70,12 @@ function listar()
                     {
                         extend: 'print',
                         text: 'IMPRIMIR',
-                        title: 'Categorías del Sistema  BYTE SEVEN'
+                        title: 'SERVICIOS DEL SISTEMA RCH DEL NORTE'
                     },
                     {
                         extend: 'pdf',
                         text: 'DESCARGAR PDF',
-                        title: 'Categorías del Sistema BYTE SEVEN'
+                        title: 'SERVICIOS DEL SISTEMA RCH DEL NORTE'
                     },
 		        ],
 		"ajax":
@@ -193,7 +193,7 @@ function desactivar(idcategoria) {
         buttonsStyling: false
     })
     swalWithBootstrapButtons.fire({
-        title: 'DESACTIVAR CATEGORÍA',
+        title: 'DESACTIVAR SERVICIO',
         text: "Esta acción influye sobre los datos del Sistema",
         icon: 'warning',
         showCancelButton: true,
@@ -239,7 +239,7 @@ function activar(idcategoria) {
         buttonsStyling: false
     })
     swalWithBootstrapButtons.fire({
-        title: 'ACTIVAR CATEGORÍA',
+        title: 'ACTIVAR SERVICIO',
         text: "Esta acción influye sobre los datos Sistema",
         icon: 'warning',
         showCancelButton: true,
